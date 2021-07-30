@@ -50,3 +50,14 @@ def parser():
         print('error')
 
 parser()
+
+
+
+//FROM ANOTHER PROJECT
+//   for item in items:
+//        cards.append(
+//            {  'title': item.find('div', class_='odiT').get_text(),
+//                'street': item.find('div', class_='odiC').find('tr').find('span').get_text(),
+ //               'plz': item.find('div', class_='odiC').find_all('tr')[0].find_all('span')[1].get_text(),
+//                'city': item.find('div', class_='odiC').find_all('tr')[0].find_all('span')[2].get_text(),
+//                'e-mail': [i['href'] for i in item.find('div', class_='odiC').find_all('tr')[-1].find_all('a', href=True)]} )
